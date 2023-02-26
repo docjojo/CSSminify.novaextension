@@ -1,0 +1,42 @@
+{
+    "identifier": "org.CSSminify",
+    "name": "CSSminify",
+    "organization": "atec-systems",
+    "description": "Automatically minify CSS files on save.",
+    "version": "1.0",
+    "categories": ["formatters"],
+    "repository": "https://github.com/docjojo/CSSminify.novaextension",
+    "bugs": "https://github.com/docjojo/CSSminify.novaextension/issues",        
+    "main": "main.js",
+    "entitlements": {
+        "process": true
+    },    
+    
+    "commands": {
+        "editor": [
+            {
+                "title": "Minify CSS",
+                "command": "CCSminify.minifyFile",
+                "when": "editorSyntax == 'css'"             
+            }        
+        ]
+    },    
+    
+    "config": [        
+        {
+            "key": "atec-systems.CCSminify.minifyOnSave",
+            "title": "Minify on Save",
+            "description": "Automatically minify css files on save.",
+            "type": "enum",
+            "values": ["Yes", "No"],
+            "default": "Yes"               
+        },
+        {
+            "key": "atec-systems.CCSminify.execPath",
+            "title": "Executable Path",
+            "type": "path",
+            "description": "Manually set the path for the sass executable.",
+            "placeholder": "/usr/local/bin/" 
+        }     
+    ]    
+}
