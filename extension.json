@@ -1,9 +1,9 @@
 {
-    "identifier": "org.CSSminify",
+    "identifier": "com.atec-systems",
     "name": "CSSminify",
     "organization": "atec-systems",
     "description": "Automatically minify CSS files on save.",
-    "version": "1.0",
+    "version": "1.0.1",
     "categories": ["formatters"],
     "repository": "https://github.com/docjojo/CSSminify.novaextension",
     "bugs": "https://github.com/docjojo/CSSminify.novaextension/issues",        
