@@ -1,5 +1,5 @@
 {
-    "identifier": "com.atec-systems",
+    "identifier": "com.atec-systems.cssminify",
     "name": "CSSminify",
     "organization": "atec-systems",
     "description": "Automatically minify CSS files on save.",
