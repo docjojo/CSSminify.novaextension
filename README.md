@@ -22,10 +22,6 @@ https://www.npmjs.com/package/uglifycss
 `Yes, No`<br/>
 Automatically minify .css files on save 
 
-**Generate Source Map**<br/>
-`Yes, No`<br/>
-Enable source map file generation
-
 **Executable Path**<br/>
 `/path/to/uglifycss`<br/>
 Manually enter or select the uglifycss binary location.
